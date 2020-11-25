@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Newsy ze świata
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Korzystając z API https://newsapi.org/docs/endpoints/everything
+
+- Wybierz czy chcesz najgorętsze wiadomości z danego kraju czy wszystkie związane z podanym query
+- Jeżeli wybierzesz najgorętsze, to spraw aby po kliknięciu przycisku “Get news” zostały pobrane i sprawdź czy się wyświetlają poprawnie
+- Jeżeli będzie błąd, wyświetl komunikat o błędzie
+- Jeżeli wybierzesz wszystkie, to spraw aby pojawił się input na odpowiednie query, a po wpisaniu go i po kliknięciu przycisku “Get news” zostały pobrane i sprawdź czy działają
+- Jeżeli będzie błąd, wyświetl komunikat o błędzie
+- Jeżeli użytkownik nie wpisze nic w input, spraw aby przycisk “Get news” był disabled
+- Użytkownik powinien mieć możliwość podania zakresu dat dla newsów "everything" w formacie zgodnym z API
+- Jeżeli obrazek artykułu nie istnieje, spraw aby został podstawiony placeholder
 
 ## Available Scripts
 
